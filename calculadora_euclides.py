@@ -1,16 +1,15 @@
 import streamlit as st
 
-# 1. Configuración de página obligatoria (Debe ir al inicio)
+# 1. SIEMPRE LA CONFIGURACIÓN PRIMERO
 st.set_page_config(
-    page_title="Algoritmo de Euclides",
+    page_title="Caja de Herramientas UP",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# 2. Título de la aplicación principal
-st.title("🧮 Laboratorio de Matemática Computacional - UP")
-st.markdown("### Simulador interactivo: Algoritmo de Euclides Directo")
-st.write("Calcula el Máximo Común Divisor (MCD) mediante divisiones sucesivas.")
+# 2. SECCIÓN DE BIENVENIDA (El código nuevo, adaptado)
+st.title("🧮 Caja de Herramientas de Matemática Computacional - UP")
+st.write("Bienvenido al laboratorio. Selecciona una herramienta en el menú de la izquierda o usa el módulo directo aquí abajo:"
 
 # --- NÚCLEO MATEMÁTICO ---
 def calcular_euclides_directo(dividendo, divisor):
