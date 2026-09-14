@@ -9,7 +9,7 @@ st.set_page_config(
 
 # 2. SECCIÓN DE BIENVENIDA (El código nuevo, adaptado)
 st.title("🧮 Caja de Herramientas de Matemática Computacional - UP")
-st.write("Bienvenido al laboratorio. Selecciona una herramienta en el menú de la izquierda o usa el módulo directo aquí abajo:"
+st.write("Bienvenido al laboratorio. Selecciona una herramienta en el menú de la izquierda o usa el módulo directo aquí abajo:")
 
 # --- NÚCLEO MATEMÁTICO ---
 def calcular_euclides_directo(dividendo, divisor):
