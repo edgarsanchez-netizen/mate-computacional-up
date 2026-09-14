@@ -3,7 +3,7 @@ import streamlit as st
 # Configuración visual de la página web (Estilo laboratorio)
 st.title("🧮 Laboratorio de Matemática Computacional - UP")
 st.markdown("### Simulador interactivo: Algoritmo de Euclides Extendido")
-st.write("Calcula el Máximo Común Divisor (MCD) y encuentra su combinación lineal (Identidad de Bézout).")
+st.write("Calcula el Máximo Común Divisor (MCD) y encuentra su combinación lineal en términos de los números originales.")
 
 # --- NÚCLEO MATEMÁTICO CORREGIDO ---
 def calcular_euclides_extendido_completo(dividendo_orig, divisor_orig):
@@ -41,7 +41,7 @@ def calcular_euclides_extendido_completo(dividendo_orig, divisor_orig):
         return bitacora
 
     # --- FASE 2: SUSTITUCIÓN HACIA ATRÁS (COMBINACIÓN LINEAL) ---
-    bitacora.append("### ⬅️ Fase de Combinación Lineal (Identidad de Bézout)")
+    bitacora.append("### ⬅️ Fase de Combinación Lineal en términos de los números originales")
     bitacora.append("**--- Despejes y Sustitución hacia atrás ---**")
     
     # Quitamos la última división (la que dio residuo 0) ya que no se despeja
