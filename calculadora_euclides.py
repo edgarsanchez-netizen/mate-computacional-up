@@ -1,7 +1,8 @@
 import streamlit as st
 
 # Configuración visual de la página web
-st.set_page_config(page_title="Laboratorio UP", page_icon="🧮", layout="centered")
+st.set_page_config(page_title="Laboratorio UP", page_icon="🧮", layout="centered", initial_sidebar_state="expanded")
+
 
 st.title("🧮 Laboratorio de Matemática Computacional - UP")
 st.markdown("### Simulador interactivo: Algoritmo de Euclides")
