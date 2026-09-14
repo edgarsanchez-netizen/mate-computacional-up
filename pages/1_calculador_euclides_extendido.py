@@ -34,7 +34,7 @@ def calcular_euclides_extendido_web(dividendo_orig, divisor_orig):
             # Caso especial: se encontró en el primer paso
             if len(historial_divisiones) == 1:
                 bitacora.append("### ⬅️ Fase de Combinación Lineal")
-                bitacora.append(f"$$\,{mcd} = {dividendo_orig}(0) + {divisor_orig}(1)\,$$")
+                bitacora.append(rf"$$\,{mcd} = {dividendo_orig}(0) + {divisor_orig}(1)\,$$")
                 return mcd, 0, 1, bitacora
         else:
             a = b
